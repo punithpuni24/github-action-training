@@ -8,3 +8,5 @@ Content:
 6. Work on different branches with git commands
 7. Try git reset and revert commands
 8. Try git rebase command
+9. Try cherry pick command to get specific commits
+10. Hands on with all the above commands
