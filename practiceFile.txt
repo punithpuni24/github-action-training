@@ -3,5 +3,8 @@ Content:
 1. Version Control System
 2. Version Control Types
 3. Version Control Tools
-
-
+4. Github Basics
+5. Create Repo and clone the same in EC2 instance
+6. Work on different branches with git commands
+7. Try git reset and revert commands
+8. Try git rebase command
