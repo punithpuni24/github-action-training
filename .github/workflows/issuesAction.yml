@@ -1,0 +1,9 @@
+name: Github Action Practice
+run-name: ${{github.actor}}
+
+on: issues
+jobs: 
+ Echo-Issues-Action:
+  runs-on: ubuntu-latest
+  steps: 
+   - run: echo "Issues trigger is working..."
