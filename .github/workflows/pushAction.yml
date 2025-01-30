@@ -1,0 +1,10 @@
+name: Github Action Practice
+run-name: ${{github.actor}}
+
+on: push
+jobs: 
+ Echo-Push-Action:
+  runs-on: ubuntu-latest
+  steps: 
+   - name: Print
+   - run: echo "Push trigger is working..."
