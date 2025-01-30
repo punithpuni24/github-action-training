@@ -1,0 +1,9 @@
+name: Github Action Practice
+run-name: ${{github.actor}}
+
+on: workflow_dispatch
+jobs: 
+ Echo-workflow-dispatch-Action:
+  runs-on: ubuntu-latest
+  steps: 
+   - run: echo "Workflow dispatch trigger is working..."
