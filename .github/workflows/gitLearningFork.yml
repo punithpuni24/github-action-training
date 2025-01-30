@@ -1,0 +1,9 @@
+name: Github Action Practice
+run-name: ${{github.actor}}
+ 
+on: fork
+jobs: 
+ fork-Action:
+  runs-on: ubuntu-latest
+  steps: 
+   - run: echo "fork request is working..."
