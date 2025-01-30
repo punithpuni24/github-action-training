@@ -6,5 +6,4 @@ jobs:
  Echo-Push-Action:
   runs-on: ubuntu-latest
   steps: 
-   - name: Print
    - run: echo "Push trigger is working..."
